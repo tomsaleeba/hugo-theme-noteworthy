@@ -1,4 +1,4 @@
-Forked from [](https://github.com/kimcc/hugo-theme-noteworthy) and hacked up to
+Forked from [https://github.com/kimcc/hugo-theme-noteworthy]() and hacked up to
 suit my needs. The most noticable change is dark theme.
 
 # Noteworthy
