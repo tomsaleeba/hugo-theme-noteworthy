@@ -2,7 +2,7 @@
 <!-- Page that displays after clicking on a post's tag -->
   <h1>Tagged "{{ .Data.Term }}"</h1>
   {{range .Pages}}
-  
+
     <!-- Display the posts with the tag -->
     <article>
             <h2>
@@ -17,7 +17,7 @@
             </div>
             <div class="post-footer">
             <time>{{ .Date.Format "January 2, 2006" }}</time>
-            </div> 
+            </div>
         </article>
     {{ end }}
 
