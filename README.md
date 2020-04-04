@@ -1,8 +1,11 @@
+Forked from [](https://github.com/kimcc/hugo-theme-noteworthy) and hacked up to
+suit my needs. The most noticable change is dark theme.
+
 # Noteworthy
 
 Noteworthy is a minimalist Hugo theme for writers and bloggers.
 
-![Noteworthy desktop screenshot](https://github.com/kimcc/hugo-theme-noteworthy/blob/master/images/screenshot.png)
+![Noteworthy desktop screenshot](./images/screenshot.png)
 
 
 ## Features
@@ -10,7 +13,6 @@ Noteworthy is a minimalist Hugo theme for writers and bloggers.
 * Fully responsive
 * Google Analytics and Disqus integration
 * Syntax highlighting
-* Mathematical notations with KaTex
 * About, Tags, and Archives pages
 * RSS feeds
 * Social media links
@@ -71,10 +73,10 @@ Add your Disqus shortname and Google Analytics identifier in the `config.toml` f
 
 ```
 # Add your Disqus shortname here.
-disqusShortname = ""      
+disqusShortname = ""
 
 # Add your Google Analytics identifier: UA-XXXXXXXX-X
-googleAnalytics = "" 
+googleAnalytics = ""
 ```
 
 

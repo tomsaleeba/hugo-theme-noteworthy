@@ -1,13 +1,13 @@
 /* VARIABLES ========================================================================== */
 
 // COLORS
-$teal: #FF7700; // rename orange
-$teal-darker: #FF983E; // rename lighter orange
+$orange: #FF7700;
+$orange-lighter: #FF983E;
 $gray-background: #20252B;
 $gray-table-border: #4A4B50;
-$gray-lightest: #D2D2D2;
+$gray-lightest: #4A4B50;
 $gray-light: #ABABAB;
-$gray-medium: #FFFFFF; // rename white
+$white: #FFFFFF;
 $gray-dark: #a9a9b3;
 $highlight: #FFEC5C;
 
@@ -90,7 +90,7 @@ h2 {
 
     &:hover {
       transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
-      color: $gray-medium;
+      color: $white;
     }
   }
 }
@@ -132,20 +132,20 @@ a:visited {
 
 .color-link {
   text-decoration: none;
-  color: $teal;
+  color: $orange;
   font-family: $sans-serif;
   margin-right: 1.5em;
 }
 
 .color-link:visited {
-  color: $teal;
+  color: $orange;
 }
 
 .color-link:hover {
-  color: $teal-darker;
+  color: $orange-lighter;
 
   .color-arrow {
-    fill: $teal-darker;
+    fill: $orange-lighter;
   }
 }
 
@@ -161,7 +161,7 @@ a:visited {
 }
 
 .tag:hover {
-  color: $gray-medium;
+  color: $white;
 }
 
 // ARTICLE FORMATTING
@@ -191,7 +191,7 @@ mark {
 }
 
 blockquote {
-  border-left: 4px solid $teal;
+  border-left: 4px solid $orange;
   padding-left: 1.3em;
   margin-left: 0em;
   margin-top: 0em;
@@ -265,7 +265,7 @@ nav {
     margin-top: 0.75em;
 
     &:hover {
-      color: $gray-medium;
+      color: $white;
     }
   }
 }
@@ -283,7 +283,7 @@ nav {
 
 .description {
   font-style: italic;
-  color: $gray-medium;
+  color: $white;
   text-align: center;
   margin-bottom: 3.7em;
   margin-top: -0.75em;
@@ -316,7 +316,7 @@ nav {
 
   a {
     text-decoration: none;
-    color: $teal;
+    color: $orange;
     font-size: 0.95rem;
   }
 }
@@ -354,7 +354,7 @@ nav {
 // SHORTCODE CONTENT
 .twitter-tweet {
   font-family: $sans-serif !important;
-  border-left: 4px solid $teal !important;
+  border-left: 4px solid $orange !important;
   color: $gray-dark !important;
   font-size: 1rem !important;
   font-style: italic !important;
@@ -479,7 +479,7 @@ footer {
   }
 
   .social-icon>svg:hover {
-    fill: $gray-medium;
+    fill: $white;
   }
 
   a {
@@ -493,7 +493,7 @@ footer {
   }
 
   a:hover {
-    color: $gray-medium;
+    color: $white;
   }
 }
 
