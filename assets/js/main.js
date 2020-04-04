@@ -1,6 +1,6 @@
 window.onload = wrapTable();
 
-// Wrap tables in a div so that they scroll responsively. 
+// Wrap tables in a div so that they scroll responsively.
 function wrapTable() {
     const tables = document.querySelectorAll('table');
     tables.forEach((table) => {
